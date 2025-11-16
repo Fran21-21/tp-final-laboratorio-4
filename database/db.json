@@ -1,0 +1,23 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Francisco",
+      "apellido": "Gonzalez",
+      "email": "francisco.gonzalez@example.com",
+      "contraseña": "securepassword123",
+      "fechaRegistro": "2023-01-15T10:00:00Z",
+      "ultimaActividad": "2024-06-01T12:30:00Z",
+      "activo": false
+    },
+    {
+      "id": "2c64",
+      "nombre": "Franco",
+      "apellido": "Brito",
+      "email": "francobrito005@gmail.com",
+      "contrasenia": "Holamundo123",
+      "fechaRegistro": "2025-11-16T21:53:41.919Z",
+      "activo": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+img {
+  width: 100px;
+  height: auto;
+}
+
+.header-container {
+  display: flex; 
+  align-items: center;
+}
+
+.link-registrarse {
+  margin-left: auto; 
+}

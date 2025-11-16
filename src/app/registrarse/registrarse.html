@@ -1,0 +1,27 @@
+<h1>Registrarse</h1>
+<body>
+    <form [formGroup]="form" (ngSubmit)="handledSubmit()">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" formControlName="nombre">
+        </div>
+
+        <div>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" type="text" formControlName="apellido">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" formControlName="email">
+        </div>
+
+        <div>
+            <label for="contrasenia">Contraseña</label>
+            <input id="contrasenia" type="password" formControlName="contrasenia">
+        </div>
+
+        <button type="submit" [disabled]="form.invalid">Registrarse</button>
+    </form>
+    <button routerLink="pagina-principal">Volver</button>
+</body>
